@@ -1,0 +1,620 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/HuangXinyiAssignment 11/libraryTesterStudentVersion.py 
+
+----------------------------------------------------------------------
+Library: 
+
+
+----------------------------------------------------------------------
+Initial state:  
+There are no patrons in the library
+
+The Python Library
+There are no books in the library
+
+
+----------------------------------------------------------------------
+Adding patrons:
+Able has been added as a library member
+Able can borrow up to 3 books, 0 book(s) out
+Baker has been added as a library member
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie has been added as a library member
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta has been added as a library member
+Delta can borrow up to 3 books, 0 book(s) out
+Echo has been added as a library member
+Echo can borrow up to 3 books, 0 book(s) out
+
+After adding patrons:  
+
+Patrons:
+Able can borrow up to 3 books, 0 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+The Python Library
+There are no books in the library
+
+
+----------------------------------------------------------------------
+Adding books:
+Absolut Python has been added to the library
+Title:Absolut Python
+Author:Anya
+Not checked out
+Waitlist: 
+
+Dummies for Python has been added to the library
+Title:Dummies for Python
+Author:Dullest
+Not checked out
+Waitlist: 
+
+Evolving Python has been added to the library
+Title:Evolving Python
+Author:Everest
+Not checked out
+Waitlist: 
+
+Python for Profit has been added to the library
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Python for Reptiles has been added to the library
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+
+After adding books:  
+
+Books:
+Title:Absolut Python
+Author:Anya
+Not checked out
+Waitlist: 
+
+Title:Dummies for Python
+Author:Dullest
+Not checked out
+Waitlist: 
+
+Title:Evolving Python
+Author:Everest
+Not checked out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able can borrow up to 3 books, 0 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+----------------------------------------------------------------------
+Taking out books:
+
+Absolut Python has been accessed
+Able member files have been accessed
+Able successfully checked out Absolut Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+Author:Dullest
+Not checked out
+Waitlist: 
+
+Title:Evolving Python
+Author:Everest
+Not checked out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able can borrow two more books, 1 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Dummies for Python has been accessed
+Able member files have been accessed
+Able successfully checked out Dummies for Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able can borrow one more book, 2 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able can borrow one more book, 2 book(s) out
+Waitlist: 
+
+Title:Evolving Python
+Author:Everest
+Not checked out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able can borrow one more book, 2 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Evolving Python has been accessed
+Able member files have been accessed
+Able successfully checked out Evolving Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+----------------------------------------------------------------------
+Taking out books again:
+
+Absolut Python has been accessed
+Able member files have been accessed
+Able has recorded an invalid transaction re:  Absolut Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Dummies for Python has been accessed
+Baker member files have been accessed
+Baker has been put on waiting list for Dummies for Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Evolving Python has been accessed
+Charlie member files have been accessed
+Charlie has been put on waiting list for Evolving Python
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Profit
+Author:Prospero
+Not checked out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Python for Profit has been accessed
+Delta member files have been accessed
+Delta successfully checked out Python for Profit
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Profit
+AuthorProspero
+Checked out:Delta can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow two more books, 1 book(s) out
+Echo can borrow up to 3 books, 0 book(s) out
+
+Python for Reptiles has been accessed
+Echo member files have been accessed
+Echo successfully checked out Python for Reptiles
+
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Profit
+AuthorProspero
+Checked out:Delta can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Python for Reptiles
+AuthorNagini
+Checked out:Echo can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow two more books, 1 book(s) out
+Echo can borrow two more books, 1 book(s) out
+
+----------------------------------------------------------------------
+Accessing non-existent book:
+Title:Unknowable Python
+Author:The Unknown Coder
+Not checked out
+Waitlist: 
+
+Unknowable Python is not in library
+
+----------------------------------------------------------------------
+Accessing non-existent patron:
+The Unknown Library Member can borrow up to 3 books, 0 book(s) out
+The Unknown Library Member is not a library member 
+
+----------------------------------------------------------------------
+Current state of library:
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Profit
+AuthorProspero
+Checked out:Delta can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Python for Reptiles
+AuthorNagini
+Checked out:Echo can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow two more books, 1 book(s) out
+Echo can borrow two more books, 1 book(s) out
+
+----------------------------------------------------------------------
+Remove patron:
+Echo can borrow two more books, 1 book(s) out
+Echo has been removed as a library member
+None
+Echo is not a library member 
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Profit
+AuthorProspero
+Checked out:Delta can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow two more books, 1 book(s) out
+
+----------------------------------------------------------------------
+Remove book:
+Title:Python for Profit
+AuthorProspero
+Checked out:Delta can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Python for Profit has been removed from the library 
+None
+Python for Profit is not in library
+
+Books:
+Title:Absolut Python
+AuthorAnya
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Baker can borrow up to 3 books, 0 book(s) out
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Able must return book(s), 3 book(s) out
+Waitlist: 
+Charlie can borrow up to 3 books, 0 book(s) out
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able must return book(s), 3 book(s) out
+Baker can borrow up to 3 books, 0 book(s) out
+Charlie can borrow up to 3 books, 0 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+
+----------------------------------------------------------------------
+Return books:
+
+Absolut Python has been accessed
+Absolut Python has been accessed
+Able has returned Absolut Python
+
+
+Dummies for Python has been accessed
+Dummies for Python has been accessed
+
+Baker successfully checked out Dummies for Python
+
+
+Evolving Python has been accessed
+Evolving Python has been accessed
+
+Charlie successfully checked out Evolving Python
+
+
+Python for Profit is not in library
+
+Python for Reptiles has been accessed
+Python for Reptiles has been accessed
+Echo has returned Python for Reptiles
+
+
+Books:
+Title:Absolut Python
+Author:Anya
+Not checked out
+Waitlist: 
+
+Title:Dummies for Python
+AuthorDullest
+Checked out:Baker can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Evolving Python
+AuthorEverest
+Checked out:Charlie can borrow two more books, 1 book(s) out
+Waitlist: 
+
+Title:Python for Reptiles
+Author:Nagini
+Not checked out
+Waitlist: 
+
+Patrons:
+Able can borrow up to 3 books, 0 book(s) out
+Baker can borrow two more books, 1 book(s) out
+Charlie can borrow two more books, 1 book(s) out
+Delta can borrow up to 3 books, 0 book(s) out
+
+----------------------------------------------------------------------
+Save library:
+Input the file name that will be used to store library records:  

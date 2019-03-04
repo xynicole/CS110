@@ -1,0 +1,62 @@
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/Huang_Xinyi_Assignment8/Assignment8EX1/Assignment8Student(1).py 
+This program encrypts or decrypts messages using a Caesar cipher
+Input the message to be processed OR <Enter> to quit:  The quick brown fox jumps over the lazy dog
+Enter e for encrypt or d for decrypt:  zz
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  Z
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  1
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  E
+Enter the rotation key:  512
+Your new message is: y.+E7;/)1E(85=4E,5>E0;369E5<+8E:.+E2'@?E*5-
+Input the message to be processed OR <Enter> to quit:  y.+E7;/)1E(85=4E,5>E0;369E5<+8E:.+E2'@?E*5-
+Enter e for encrypt or d for decrypt:  D
+Enter the rotation key:  512
+Your new message is: The quick brown fox jumps over the lazy dog
+Input the message to be processed OR <Enter> to quit:  0123456789
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  5
+Your new message is: 56789:;<=>
+Input the message to be processed OR <Enter> to quit:  56789:;<=>
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  5
+Your new message is: 0123456789
+Input the message to be processed OR <Enter> to quit:  0123456789
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  -5
+Your new message is: +,-./01234
+Input the message to be processed OR <Enter> to quit:  +,-./01234
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  -5
+Your new message is: 0123456789
+Input the message to be processed OR <Enter> to quit:  The quick brown fox jumps over the lazy dog
+Enter e for encrypt or d for decrypt:  3
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  cat
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  95
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  95
+Your new message is: The quick brown fox jumps over the lazy dog
+Input the message to be processed OR <Enter> to quit:  The quick brown fox jumps over the lazy dog
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  -127
+Your new message is: 4HE_QUICK_BROWN_FOX_JUMPS_OVER_THE_LAZY_DOG
+Input the message to be processed OR <Enter> to quit:  4HE_QUICK_BROWN_FOX_JUMPS_OVER_THE_LAZY_DOG
+Enter e for encrypt or d for decrypt:  -127
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  -127
+Your new message is: The quick brown fox jumps over the lazy dog
+Input the message to be processed OR <Enter> to quit:  The quick brown fox jumps over the lazy dog
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  190
+Your new message is: The quick brown fox jumps over the lazy dog
+Input the message to be processed OR <Enter> to quit:  The quick brown fox jumps over the lazy dog
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  190
+Your new message is: The quick brown fox jumps over the lazy dog
+Input the message to be processed OR <Enter> to quit:  

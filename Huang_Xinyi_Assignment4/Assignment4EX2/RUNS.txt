@@ -1,0 +1,53 @@
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/Huang_Xinyi_Assignment4/Assignment4EX2/2.py 
+This program determines if a given year is a leap year or not
+Enter a year (Common Era only):   2017
+2017 is not a leap year
+
+1800 is not a leap year
+1810 is not a leap year
+1820 is a leap year
+1830 is not a leap year
+1840 is a leap year
+1850 is not a leap year
+1860 is a leap year
+1870 is not a leap year
+1880 is a leap year
+1890 is not a leap year
+1900 is not a leap year
+1910 is not a leap year
+1920 is a leap year
+1930 is not a leap year
+1940 is a leap year
+1950 is not a leap year
+1960 is a leap year
+1970 is not a leap year
+1980 is a leap year
+1990 is not a leap year
+2000 is a leap year
+2010 is not a leap year
+2020 is a leap year
+2030 is not a leap year
+2040 is a leap year
+2050 is not a leap year
+2060 is a leap year
+2070 is not a leap year
+2080 is a leap year
+2090 is not a leap year
+2100 is not a leap year
+
+1599 is not a leap year
+1600 is a leap year
+1601 is not a leap year
+1602 is not a leap year
+1603 is not a leap year
+1604 is a leap year
+1605 is not a leap year
+1799 is not a leap year
+1800 is not a leap year
+1801 is not a leap year
+1802 is not a leap year
+1803 is not a leap year
+1804 is a leap year
+1805 is not a leap year
+>>> 

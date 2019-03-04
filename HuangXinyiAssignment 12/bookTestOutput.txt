@@ -1,0 +1,347 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/HuangXinyiAssignment 11/bookTesterStudentVersion.py 
+Step 1
+
+----------------------------------------------------------------------
+Book: 
+
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: 
+
+None
+Waitlist: 
+Transaction Status:  No transactions yet
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+
+Step 2
+\Max out patrons
+
+Step 3
+
+Try to borrow
+
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: None
+Waitlist: 
+Transaction Status: first must return books before taking out Guide to CS110
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: None
+Waitlist: 
+Transaction Status: second must return books before taking out Guide to CS110
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+
+Step 4
+
+Return books
+
+Step 5
+
+Try to borrow
+
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: first can borrow two more books, 1 book(s) out
+Waitlist: 
+Transaction Status: first successfully checked out Guide to CS110
+
+Checked Out? True
+Reserved? False
+Has Book? True
+Is in waitlist? False
+
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+Transaction Status: second has been put on waiting list for Guide to CS110
+
+Checked Out? True
+Reserved? True
+Has Book? False
+Is in waitlist? True
+
+Step 6
+
+Try to borrow again
+
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+Transaction Status: first has recorded an invalid transaction re:  Guide to CS110
+
+Checked Out? True
+Reserved? True
+Has Book? True
+Is in waitlist? True
+
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+Transaction Status: second has recorded an invalid transaction re:  Guide to CS110
+
+Checked Out? True
+Reserved? True
+Has Book? False
+Is in waitlist? True
+
+Step 7
+
+Return book:
+Title:Guide to CS110
+AuthorWilliams
+Checked out:second can borrow two more books, 1 book(s) out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: second can borrow two more books, 1 book(s) out
+Waitlist: 
+Transaction Status: 
+second successfully checked out Guide to CS110
+
+Checked Out? True
+Reserved? False
+Has Book? False
+Is in waitlist? False
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: 
+None
+Waitlist: 
+Transaction Status: second has returned Guide to CS110
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+
+Step 8
+
+Try to return book again
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: 
+None
+Waitlist: 
+Transaction Status: second has returned Guide to CS110
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+
+Title: Guide to CS110
+Author: Williams
+Patron: 
+None
+Waitlist: 
+Transaction Status: second has returned Guide to CS110
+
+Checked Out? False
+Reserved? False
+Has Book? False
+Is in waitlist? False
+
+Step 9
+
+Show that wait list is managed properly
+
+Try to lend out book:
+
+first successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+
+second has been put on waiting list for Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+
+third has been put on waiting list for Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+third can borrow up to 3 books, 0 book(s) out
+
+fourth has been put on waiting list for Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+third can borrow up to 3 books, 0 book(s) out
+fourth can borrow up to 3 books, 0 book(s) out
+
+fifth has been put on waiting list for Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+third can borrow up to 3 books, 0 book(s) out
+fourth can borrow up to 3 books, 0 book(s) out
+fifth can borrow up to 3 books, 0 book(s) out
+
+sixth has been put on waiting list for Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:first can borrow two more books, 1 book(s) out
+Waitlist: 
+second can borrow up to 3 books, 0 book(s) out
+third can borrow up to 3 books, 0 book(s) out
+fourth can borrow up to 3 books, 0 book(s) out
+fifth can borrow up to 3 books, 0 book(s) out
+sixth can borrow up to 3 books, 0 book(s) out
+
+
+Step 10
+
+Return book:
+
+second successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:second can borrow two more books, 1 book(s) out
+Waitlist: 
+third can borrow up to 3 books, 0 book(s) out
+fourth can borrow up to 3 books, 0 book(s) out
+fifth can borrow up to 3 books, 0 book(s) out
+sixth can borrow up to 3 books, 0 book(s) out
+
+
+third successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:third can borrow two more books, 1 book(s) out
+Waitlist: 
+fourth can borrow up to 3 books, 0 book(s) out
+fifth can borrow up to 3 books, 0 book(s) out
+sixth can borrow up to 3 books, 0 book(s) out
+
+
+fourth successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:fourth can borrow two more books, 1 book(s) out
+Waitlist: 
+fifth can borrow up to 3 books, 0 book(s) out
+sixth can borrow up to 3 books, 0 book(s) out
+
+
+fifth successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:fifth can borrow two more books, 1 book(s) out
+Waitlist: 
+sixth can borrow up to 3 books, 0 book(s) out
+
+
+sixth successfully checked out Guide to CS110
+Title:Guide to CS110
+AuthorWilliams
+Checked out:sixth can borrow two more books, 1 book(s) out
+Waitlist: 
+
+sixth has returned Guide to CS110
+Title:Guide to CS110
+Author:Williams
+Not checked out
+Waitlist: 
+
+>>> 

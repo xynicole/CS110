@@ -1,0 +1,52 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/Huang_Xinyi_Assignment10/Assignment10EX1.py 
+This program encrypts or decrypts entire files at a time using a Caesar cipher
+Input the name of a file to be processed(or press <Enter> to quit):  file
+That file name does not appear to be valid, please try again:.txt
+That file name does not appear to be valid, please try again:CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  2
+Invaild value, please try again
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  cat
+Invalid rotation key, please try again
+Enter the rotation key:  1
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  1
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  -1
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnightEncrypted-1.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  -1
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  127
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnightEncrypted127.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  127
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  -127
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnightEncrypted-127.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  -127
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  570
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnightEncrypted570.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  570
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnight.txt
+Enter e for encrypt or d for decrypt:  e
+Enter the rotation key:  -570
+Input the name of a file to be processed(or press <Enter> to quit):  CaptainMidnightEncrypted-570.txt
+Enter e for encrypt or d for decrypt:  d
+Enter the rotation key:  -570
+Input the name of a file to be processed(or press <Enter> to quit):  
+>>> 

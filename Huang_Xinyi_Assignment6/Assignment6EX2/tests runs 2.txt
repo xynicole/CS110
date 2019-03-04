@@ -1,0 +1,68 @@
+RESTART: /Users/nicole/Desktop/college/CS110 HW/Huang_Xinyi_Assignment6/Assignment6EX2/2.py 
+This program computes a simple tax table for single and married filers
+Tax for       s filer, with income $     0.00 = $     0.00
+Tax for       s filer, with income $  9075.00 = $   907.50
+Tax for       s filer, with income $  9076.00 = $   907.65
+Tax for       s filer, with income $ 36900.00 = $  5081.25
+Tax for       s filer, with income $ 36901.00 = $  5081.75
+Tax for       s filer, with income $ 89350.00 = $ 18194.00
+Tax for       s filer, with income $ 89351.00 = $ 18194.03
+Tax for       s filer, with income $186350.00 = $ 45353.75
+Tax for       s filer, with income $186351.00 = $ 45354.08
+Tax for       s filer, with income $405100.00 = $117541.25
+Tax for       s filer, with income $405101.00 = $117541.60
+Tax for       s filer, with income $406750.00 = $118118.75
+Tax for       s filer, with income $406751.00 = $118119.15
+Tax for       m filer, with income $     0.00 = $     0.00
+Tax for       m filer, with income $ 18150.00 = $  1815.00
+Tax for       m filer, with income $ 18151.00 = $  1815.15
+Tax for       m filer, with income $ 73800.00 = $ 10162.50
+Tax for       m filer, with income $ 73801.00 = $ 10162.75
+Tax for       m filer, with income $148850.00 = $ 28925.00
+Tax for       m filer, with income $148851.00 = $ 28925.28
+Tax for       m filer, with income $226850.00 = $ 50765.00
+Tax for       m filer, with income $226851.00 = $ 50765.33
+Tax for       m filer, with income $405100.00 = $109587.50
+Tax for       m filer, with income $405101.00 = $109587.85
+Tax for       m filer, with income $457600.00 = $127962.50
+Tax for       m filer, with income $457601.00 = $127962.90
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   dog
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   0
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   -1
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   2.3
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   S
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   M
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   married
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   single
+Invalid Input: input only "s" or "m"
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   s
+Please enter your total income:   cat
+Invalid Input: input only whole number greater than 0
+Please enter your total income rounded up to the nearest whole number:  0
+Invalid Input: input only whole number greater than 0
+Please enter your total income rounded up to the nearest whole number:  -1
+Invalid Input: input only whole number greater than 0
+Please enter your total income rounded up to the nearest whole number:  2.4
+Invalid Input: input only whole number greater than 0
+Please enter your total income rounded up to the nearest whole number:  s
+Invalid Input: input only whole number greater than 0
+Please enter your total income rounded up to the nearest whole number:  1
+You have to pay $     0.10
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   s
+Please enter your total income:   9075
+You have to pay $   907.50
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   m
+Please enter your total income:   1
+You have to pay $     0.10
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   m
+Please enter your total income:   18150
+You have to pay $  1815.00
+Enter your marital status("s" or "m" only) OR <ENTER> to quit   
+>>> 

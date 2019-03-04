@@ -1,0 +1,81 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+ RESTART: /Users/nicole/Desktop/college/CS110 HW/HuangXinyiAssignment 11/patronTesterStudentVersion.py 
+
+----------------------------------------------------------------------
+Patron: 
+
+first can borrow up to 3 books, 0 book(s) out
+
+Name: firstStatus:  can borrow up to 3 books
+Books Out: 0
+
+Can Take out Books? True
+Has Books Checked Out? False
+
+
+Have patron take book out:  1
+first can borrow two more books, 1 book(s) out
+
+Name: first
+Status:  can borrow two more books
+Books Out: 1
+
+Can Take out Books? True
+Has Books Checked Out? True
+
+Have patron take book out:  2
+first can borrow one more book, 2 book(s) out
+
+Name: first
+Status:  can borrow one more book
+Books Out: 2
+
+Can Take out Books? True
+Has Books Checked Out? True
+
+Have patron take book out:  3
+first must return book(s), 3 book(s) out
+
+Name: first
+Status:  must return book(s)
+Books Out: 3
+
+Can Take out Books? False
+Has Books Checked Out? True
+
+
+Have patron return books:  1
+first can borrow one more book, 2 book(s) out
+
+Name: first
+Status:  can borrow one more book
+Books Out: 2
+
+Can Take out Books? True
+Has Books Checked Out? True
+
+Have patron return books:  2
+first can borrow two more books, 1 book(s) out
+
+Name: first
+Status:  can borrow two more books
+Books Out: 1
+
+Can Take out Books? True
+Has Books Checked Out? True
+
+Have patron return books:  3
+first can borrow up to 3 books, 0 book(s) out
+
+Name: first
+Status:  can borrow up to 3 books
+Books Out: 0
+
+Can Take out Books? True
+Has Books Checked Out? False
+>>> 

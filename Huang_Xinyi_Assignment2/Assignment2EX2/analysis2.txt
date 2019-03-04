@@ -1,0 +1,71 @@
+'''
+Xinyi Huang (Nicole)
+xhuang78@binghamton.edu
+B58 Jia Yang
+Assignment #2
+'''
+
+'''
+ANALYSIS
+
+RESTATEMENT:
+  Ask a user how many points does the star have
+  and output the picture of star
+
+OUTPUT to monitor:
+  turtle - picture of star
+
+INPUT from keyboard:
+  points_count (int) - number of points of star
+
+
+GIVENS: 
+  POINTS_COUNT (int) >= 3
+  POINTS_COUNT (int) <= 15
+ 
+FORMULA:
+ 360 / n
+n = points_count
+
+
+'''
+
+# CONSTANTS 
+
+
+
+# Explain purpose of program to user
+# This program outputs the picture of the star
+
+
+def main():
+
+  
+
+  # Ask user for number of points of star
+  
+  
+  # Convert str data to int
+  
+
+
+  #fomula and data
+ 
+  
+
+  
+
+
+  # polygon loop
+ 
+  
+                
+  
+
+  #Creat loop
+    
+ 
+
+  wn.exitonclick()
+  
+main() 

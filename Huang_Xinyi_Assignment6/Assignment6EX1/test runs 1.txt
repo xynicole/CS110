@@ -1,0 +1,35 @@
+RESTART: /Users/nicole/Desktop/college/CS110 HW/Huang_Xinyi_Assignment6/Assignment6EX1/1.py 
+This program determines if a given year is a leap year or not
+1599 is a leap year
+1600 is a leap year
+1601 is a leap year
+1602 is a leap year
+1603 is a leap year
+1604 is a leap year
+1605 is a leap year
+1799 is a leap year
+1800 is a leap year
+1801 is a leap year
+1802 is a leap year
+1803 is a leap year
+1804 is a leap year
+1805 is a leap year
+Enter a year OR press <Enter> to quit :   dog
+Invalid Input: input only integer
+Enter a year OR press <Enter> to quit :   -1
+Invalid Input: input only integer
+Enter a year OR press <Enter> to quit :   2.3
+Invalid Input: input only integer
+Enter a year OR press <Enter> to quit :   0
+Invalid Input: input only integer
+Enter a year OR press <Enter> to quit :   4
+4 is a leap year
+Enter a year OR press <Enter> to quit :   2008
+2008 is a leap year
+Enter a year OR press <Enter> to quit :   2017
+2017 is not a leap year
+Enter a year OR press <Enter> to quit :   21324545
+21324545 is not a leap year
+Enter a year OR press <Enter> to quit :   
+
+>>> 
