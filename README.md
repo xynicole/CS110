@@ -4,4 +4,3 @@ This is a repository of the Python assignments, labs, and projects that I did at
 
 The work done here is not to be submitted as your own, with or without edits.
 
-Copyright © 2017
