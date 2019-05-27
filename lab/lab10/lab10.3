@@ -1,0 +1,45 @@
+def main():
+
+    file_str = input('File name (write as filename.txt):   ')
+
+    file = open(file_str,'r')
+    
+    rainfall_str = file.read()
+    rainfall_list = rainfall_str.split('\n')
+    del rainfall_list[-1]
+    r_inch = []
+    for val in rainfall_list:
+    
+        ##print(val)
+        rain = val.split()
+        ##print(rain)
+        r_inch.append(float(rain[1]))
+
+    max_val = max(r_inch)
+    min_val = min(r_inch)
+    avg_val = sum(r_inch) / len(r_inch)
+
+    print('Max rainfall: %.2f, Min rainfall: %.2f, Average Rainfall: %.2f' % (max_val, min_val,avg_val))
+    
+    ##print(rainfall_list)
+    file.close()
+
+##main()
+
+READ_MODE = 'r'
+WRITE_MODE = 'w'
+
+def makeName(fileName):
+  fileNameList = fileName.split('.')
+  fileNameList[0] += "Output"
+  return '.'.join(fileNameList)
+
+def main():
+  print("This program will read in the contents of a file, " +
+        "then print and write the contents to a new file\n")
+  fileName = input("Input a filename:  ")
+  while fileName:
+      if fileName.exists() = false:
+          print('Invalid input')
+      else:
+          
