@@ -52,7 +52,7 @@ def operation_validated(op_str):
 # invoke str.isdigit() 
 # returns:  True when valid, False otherwise (bool)
 def rotation_key_validated(rotation_key_str):
-  return rotation_key_str[1:].isdigit() or rotation_key_str.isdigit()
+  return rotation_key_str.isdigit() or (rotation_key_str[0]==KEY_PREFIX and rotation_key_str[1:].isdigit())
 
 # Convert rotation key to value usable for requested operation
 # param  op (str) - operation requested 
